@@ -1,4 +1,4 @@
-# Sahi-Sample-Basic-Scripts
+# Sahi Sample Basic Scripts
 
 This pack contains the different scripts for a beginner level Sahi learner created using Sahi version 5.1.</br>
 1.Download and install Sahi.</br>
