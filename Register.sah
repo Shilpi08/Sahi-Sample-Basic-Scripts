@@ -1,0 +1,28 @@
+_navigateTo("http://newtours.demoaut.com/");
+_click(_link("REGISTER"));
+_setValue(_textbox("firstName"), "Shilpi");
+_setValue(_textbox("lastName"), "Negi");
+_setValue(_textbox("phone"), "9824314511");
+_setValue(_textbox("userName"), "dummyshilpi@gmail.com");
+_setValue(_textbox("address1"), "New Delhi");
+_setValue(_textbox("city"), "New Delhi");
+_setValue(_textbox("state"), "New Delhi");
+_setValue(_textbox("postalCode"), "110016");
+_setSelected(_select("country"), "INDIA");
+_setValue(_textbox("email"), "Shilpi08");
+_setValue(_password("password"), "12345");
+_setValue(_password("confirmPassword"), "12345");
+_click(_imageSubmitButton("register"));
+_click(_link("sign-in"));
+_setValue(_textbox("userName"), "Shilpi08");
+_setValue(_password("password"), "12345");
+_click(_imageSubmitButton("Login"));
+_setSelected(_select("fromPort"), "London");
+_click(_radio("tripType[1]"));
+_setSelected(_select("toPort"), "Portland");
+_setSelected(_select("airline"), "Unified Airlines");
+_click(_imageSubmitButton("findFlights"));
+_click(_radio("inFlight[2]"));
+_click(_imageSubmitButton("reserveFlights"));
+_click(_link("Home"));
+
