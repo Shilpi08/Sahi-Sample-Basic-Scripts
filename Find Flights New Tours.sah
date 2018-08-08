@@ -1,0 +1,184 @@
+
+
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_navigateTo__http___newtours.demoaut.com____0.png</screenshot>
+*<description></description>
+*/
+_navigateTo("http://newtours.demoaut.com/");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__link__Flights____7.png</screenshot>
+*<description></description>
+*/
+_click(_link("Flights"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__userName_____Shilpi08___8.png</screenshot>
+*<description></description>
+*/
+/**
+* login()
+*/
+function login(){
+	_setValue(_textbox("userName"), "Shilpi08");
+	/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setPassword__password__password_____cF5aV1A____9.png</screenshot>
+*<description></description>
+*/
+	_setPassword(_password("password"), "cF5aV1A=");
+	/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__cell_59___10.png</screenshot>
+*<description></description>
+*/
+	_click(_cell(59));
+	/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__imageSubmitButton__Sign-In____11.png</screenshot>
+*<description></description>
+*/
+	_click(_imageSubmitButton("Sign-In"));
+
+}
+
+login();
+/**
+* Find Flights()
+*/
+function FindFlights(){
+	/* --Functions Above-- */
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__fromPort_____New_York___12.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("fromPort"), "New York");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__toPort_____London___13.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("toPort"), "London");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__toMonth_____May___14.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("toMonth"), "May");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__cell__January_February_March_April_May_June_July_August_September_October_November_December_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_1_____15.png</screenshot>
+*<description></description>
+*/
+_click(_cell("January February March April May June July August September October November December 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31[1]"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__toMonth_____September___16.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("toMonth"), "September");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__airline_____Unified_Airlines___17.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("airline"), "Unified Airlines");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__imageSubmitButton__findFlights____18.png</screenshot>
+*<description></description>
+*/
+_click(_imageSubmitButton("findFlights"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_check__radio__outFlight_1_____19.png</screenshot>
+*<description></description>
+*/
+_check(_radio("outFlight[1]"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__imageSubmitButton__reserveFlights____20.png</screenshot>
+*<description></description>
+*/
+_click(_imageSubmitButton("reserveFlights"));
+
+}
+
+FindFlights();
+
+/*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__passFirst0_____Shilpi___21.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("passFirst0"), "Shilpi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__passLast0_____Negi___22.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("passLast0"), "Negi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__pass.0.meal_____Kosher___23.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("pass.0.meal"), "Kosher");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__pass.0.meal_____Hindu___24.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("pass.0.meal"), "Hindu");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__creditCard_____MasterCard___25.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("creditCard"), "MasterCard");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__creditnumber_____63234111118393___26.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("creditnumber"), "63234111118393");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__cc_exp_dt_mn_____05___27.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("cc_exp_dt_mn"), "05");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setSelected__select__cc_exp_dt_yr_____2010___28.png</screenshot>
+*<description></description>
+*/
+_setSelected(_select("cc_exp_dt_yr"), "2010");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__cc_frst_name_____Shilpi___29.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("cc_frst_name"), "Shilpi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__cc_last_name_____Negi___30.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("cc_last_name"), "Negi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__billAddress1_____New_delhi___31.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("billAddress1"), "New delhi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__billCity_____New_delhi___32.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("billCity"), "New delhi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__billState_____New_Delhi___33.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("billState"), "New Delhi");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_setValue__textbox__billZip_____110016___34.png</screenshot>
+*<description></description>
+*/
+_setValue(_textbox("billZip"), "110016");
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_check__checkbox__ticketLess_1_____35.png</screenshot>
+*<description></description>
+*/
+_check(_checkbox("ticketLess[1]"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__imageSubmitButton__buyFlights____36.png</screenshot>
+*<description></description>
+*/
+_click(_imageSubmitButton("buyFlights"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__image__home.gif____37.png</screenshot>
+*<description></description>
+*/
+_click(_image("home.gif"));
+/**
+*<screenshot>Find Flights New Tours.sah_images/Find Flights New Tours.sah_click__link__SIGN-OFF____38.png</screenshot>
+*<description></description>
+*/
+_click(_link("SIGN-OFF"));
