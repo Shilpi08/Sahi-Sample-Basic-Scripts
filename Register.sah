@@ -16,13 +16,5 @@ _click(_imageSubmitButton("register"));
 _click(_link("sign-in"));
 _setValue(_textbox("userName"), "Shilpi08");
 _setValue(_password("password"), "12345");
-_click(_imageSubmitButton("Login"));
-_setSelected(_select("fromPort"), "London");
-_click(_radio("tripType[1]"));
-_setSelected(_select("toPort"), "Portland");
-_setSelected(_select("airline"), "Unified Airlines");
-_click(_imageSubmitButton("findFlights"));
-_click(_radio("inFlight[2]"));
-_click(_imageSubmitButton("reserveFlights"));
 _click(_link("Home"));
 
